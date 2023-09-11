@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+body{
+    margin: 0;
+}
+.info{
+    background-color: #F4F9E2;
+    padding: 10px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerlinks{
+    display: flex;
+    gap: 50px;
+}
+.headerlinks > h4:hover{
+    text-decoration: underline;
+}
+.Contact{
+    color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: orange;
+}
+.textandimage{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+}
+.infotext > p{
+    width: 400px;
+    font-size: 20px;
+}
+.offers{
+    padding: 10px;
+    background-color: #62D0DF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.offerstext{
+    font-size: 25px;
+    color: white;
+}
+.offerstext > p{
+    width: 350px;
+    font-size: 20px;
+}
+.comment{
+    color: #22356F;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.commenttext{
+    width: 500px;
+}
+.attendancies{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+}
+.attendance{
+    height: 40vh;
+    text-align: center;
+}
+.attendance > hr{
+    margin-top: 50px;
+    width: 250px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bikerent{
+    display: flex;
+    color: #22356F;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bikerentimg{
+    background-image: url("./images/bikerent.png");
+    height: 100vh;
+    width: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bikerenttext{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 50px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bikerenttext > p{
+    width: 400px;
+    
 }
